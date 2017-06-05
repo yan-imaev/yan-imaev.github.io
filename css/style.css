@@ -13,7 +13,9 @@
 }
 
 .image {
-	width: 150px;
+    display: block;
+    margin: auto;
+    width: 150px;
     height: 140px;
     align-content: center;
 }
