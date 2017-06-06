@@ -7,8 +7,6 @@
 	margin-left: 5px;
    }
 
-/* --section__navbar-- */
-
 .navbar{
 	margin-bottom: 0px;
 	height:90px;
@@ -50,12 +48,12 @@
 }
 
 .glyphicon-shopping-cart{
-	width: 18px;
+    width: 18px;
     height: 17px;
 }
 	 
 .navbar__btn {
-	border-radius: 16px;
+    border-radius: 16px;
     border-width: 2px;
     border-color: #e3e8f0;
     border-style: solid;
@@ -141,7 +139,7 @@ img{
 }
 
 .main__bg {
-    background-image: url(../image/placeholder.jpg);
+    background-image: url(image/placeholder.jpg);
     height: 500px;
 }
 
