@@ -139,7 +139,7 @@ img{
 }
 
 .main__bg {
-    background-image: url(image/placeholder.jpg);
+    background-color: #1c1e23;
     height: 500px;
 }
 
