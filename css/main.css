@@ -76,4 +76,20 @@ html {
   border-radius: 30px;
   -webkit-box-shadow: 0 20px 30px -10px rgba(0,0,0,.2);
   box-shadow: 0 20px 30px -10px rgba(0,0,0,.2);
+  transition: all .5s;
+}
+
+.main-row_btn:hover {
+  height: 30rem;
+  color: #fff;
+  transform: translateY(-20rem) rotate(15deg);
+  background-color: #a61000;
+}
+
+.main-row_btn:focus {
+  color: red;
+  background-color: #fff;
+  border-width: 2rem;
+  border-radius: 10px;
+  border-color: green;
 }
