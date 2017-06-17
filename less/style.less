@@ -91,4 +91,33 @@ html {
 		border-radius: 10px;
 		border-color: green;
 	}
+	.popup {
+	text-align: center;
+	width: 40rem;
+	background-color: @orange;
+	transform: translateX(120%) translateY(-300%);
+	position: fixed;
+	opacity: 0;
+	transition: all 1s;
+	&:target {
+		opacity: 1;
+		transform: translateX(120%) translateY(-100%);
+	}
+	&-close {
+		position: absolute;
+		top: .5rem;
+		right: 1rem;
+		text-decoration: none;
+		font-size: 3rem;
+	}
+	&-png {
+		margin: 1rem auto;
+		weight: 30rem;
+		height: 30rem;
+	}
+	&-text {
+		padding-top: 5rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
 }
