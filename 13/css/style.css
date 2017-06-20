@@ -1,0 +1,208 @@
+.header-row {
+	height: 110px;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.col-lg-4 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.col-lg-8 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.header-contacts {
+	float: right;
+	text-align: center;
+	vertical-align: center;
+}
+
+.header-textlogo {
+	font-weight: 700;
+}
+
+.header-btn {
+border-radius: 10px;
+border-width: 2px;
+border-color:  #282828;
+border-style: solid;
+width: 200px;
+height: 45px;
+vertical-align: middle;
+background-color: #ffffff;
+}
+
+.header-btn:hover {
+	background: radial-gradient(rgb(5, 159, 235), #ffffff);
+}
+
+.header-btn:focus {
+	background: radial-gradient(#ffffff, rgb(5, 159, 235));
+}
+
+.header-phone {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.row-navbar {
+	font-family: 'Open Sans', sans-serif;
+	height: 80px;
+	background-color: rgb(37, 41, 45);
+	text-align: center;
+}
+
+.navbar-ul {
+	height: 80px;
+	vertical-align: middle;
+}
+
+.bar-li {
+	display: inline-block;
+	height: 80px;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+}
+
+.bar-li:hover {
+	background-color: rgb(5, 159, 235);
+}
+
+.bar-li-href {
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.main-bg {
+	display: block;
+	height: 760px;
+	background: url(../img/bg-main-img.jpg) center center;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.main-text {
+	padding-top: 12rem;
+}
+
+.main-btn {
+	background-color:  #059feb;
+	width: 260px;
+	height: 56px;
+	border: none;
+	border-radius: 40px;
+	margin-top: -10px;
+}
+
+.main-btn-text {
+	text-transform: uppercase;
+	color: white;
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.main-logo {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.main-logo-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.main-logo-text2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.main-logo-text3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#arrow {
+	margin-top: 60px;
+}
+
+.main-logo-text4 {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 60px;
+}
+
+.main-logo-mouse {
+	margin-top: 2rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.about-header {
+	height: 600px;
+	background-color: white;
+	text-align: center;
+}
+
+#about-h1 {
+	display: inline-block;
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.row-about-point {
+	text-align: left;
+	margin-top: 60px;
+}
+
+.about-point-header {
+	display: block;
+	width: 445px;
+	padding-left: 1rem;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-color: rgb(5, 159, 235);
+}
+
+.about-h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.about-point-text {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+	width: 445px;
+	margin-top: 15px;
+}
