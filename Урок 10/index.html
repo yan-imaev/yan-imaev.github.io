@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.box {
+			margin: 20px;
+			height: 200px;
+			width: 200px;
+			background-color: red;
+		}
+		button {
+			width: 80px;
+			height: 40px;
+			margin: 5px;
+			border-style: solid;
+			border-radius: 5px;
+			color: white;
+			background-color: black;
+		}
+		.circle {
+			margin: 5px;
+			height: 100px;
+			width: 100px;
+			background-color: blue;
+			border-radius: 50px;
+		}
+		.heart {
+
+  position: relative;
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+.heart:before {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: red;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 0 50px 50px 0;
+}
+.black {
+background-color: grey;
+border-width: 5px;
+border-color: yellow;
+border-style: solid;
+margin-top: 20px;	
+}
+}
+</style>
+</head>
+<body>
+	
+	<div class="box" id="box"></div>
+	<button>1</button><br>
+	<button>2</button><br>
+	<button>3</button><br>
+	<button>4</button><br>
+	<button>5</button><br>
+	<div class="circle"></div>
+	<div class="circle"></div>
+	<div class="circle"></div>
+	<div class="heart"></div>
+	<div class="heart"></div>
+	<div class="heart"></div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
